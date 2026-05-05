@@ -1,0 +1,48 @@
+# Modèles (sur HuggingFace, pas GitHub)
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+
+# Données audio
+*.wav
+*.mp3
+*.flac
+wavs/
+audio_60min/
+doda_M2_60min/
+
+# Outputs training
+M2_outputs/
+pfa_outputs/
+*_outputs/
+run/
+checkpoints/
+tensorboard/
+events.out.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Secrets
+*.token
+hf_token.txt
+github_token.txt
