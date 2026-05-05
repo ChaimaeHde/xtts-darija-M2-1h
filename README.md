@@ -1,4 +1,4 @@
-# 🎙️ XTTS-v2 Darija Marocain — Locuteur M2 (1h)
+#  XTTS-v2 Darija Marocain — Locuteur M2 (1h)
 
 Finetuning du modèle [XTTS-v2](https://huggingface.co/coqui/XTTS-v2) sur 60 minutes du locuteur M2 du dataset [DODa](https://huggingface.co/datasets/atlasia/DODa-audio-dataset) pour la synthèse vocale en darija marocaine.
 
