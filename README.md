@@ -29,7 +29,16 @@ xtts-darija-M2-1h/
 ├── interface/           # Interface Gradio
 └── notebooks/           # Demo Colab
 
-## 🚀 Utilisation
+### Tester sur colab directement 
+```python
+!pip install -q coqui-tts gradio huggingface_hub soundfile
+!git clone https://github.com/ChaimaeHde/xtts-darija-M2-1h.git
+%cd xtts-darija-M2-1h
+!python app.py
+```
+
+
+
 
 ### Installation
 ```bash
@@ -66,4 +75,4 @@ Coqui Public Model License (CPML), cohérent avec XTTS-v2 original.
 
 ## 👤 Auteur
 
-Chaimae Hde — PFA 2026
+Chaimae Haddouche - Loubna Haouach  —  2026
