@@ -2,7 +2,7 @@
 
 Finetuning du modèle [XTTS-v2](https://huggingface.co/coqui/XTTS-v2) sur 60 minutes du locuteur M2 du dataset [DODa](https://huggingface.co/datasets/atlasia/DODa-audio-dataset) pour la synthèse vocale en darija marocaine.
 
-## 📊 Résultats
+##  Résultats
 
 | Métrique | Valeur |
 |----------|--------|
@@ -13,13 +13,13 @@ Finetuning du modèle [XTTS-v2](https://huggingface.co/coqui/XTTS-v2) sur 60 min
 | Loss finale (mel_ce) | 3.59 |
 | Temps de training | ~1h05 sur GPU T4 |
 
-## 🔗 Ressources
+##  Ressources
 
-- 🤗 **Modèle** : [chaimaehde/xtts-darija-M2-1h](https://huggingface.co/chaimaehde/xtts-darija-M2-1h)
-- 🚀 **Demo Gradio** : [chaimaehde/tts-darija-M2-1h](https://huggingface.co/spaces/chaimaehde/tts-darija-M2-1h)
-- 📂 **Dataset source** : [atlasia/DODa-audio-dataset](https://huggingface.co/datasets/atlasia/DODa-audio-dataset)
+-  **Modèle** : [chaimaehde/xtts-darija-M2-1h](https://huggingface.co/chaimaehde/xtts-darija-M2-1h)
+-  **Dataset source** : [atlasia/DODa-audio-dataset](https://huggingface.co/datasets/atlasia/DODa-audio-dataset)
 
-## 📁 Structure
+##  Structure
+```
 xtts-darija-M2-1h/
 ├── config/              # Configuration centralisée
 ├── data/                # Pipeline de préparation
@@ -28,6 +28,7 @@ xtts-darija-M2-1h/
 ├── evaluation/          # WER, CER, MOS
 ├── interface/           # Interface Gradio
 └── notebooks/           # Demo Colab
+```
 
 ### Tester sur colab directement 
 ```python
@@ -58,7 +59,7 @@ synthesize(
 )
 ```
 
-## 📋 Hyperparamètres
+##  Hyperparamètres
 
 | Paramètre | Valeur |
 |-----------|--------|
@@ -69,7 +70,7 @@ synthesize(
 | `optimizer` | AdamW |
 | `sample_rate` | 22050 Hz |
 
-## 📜 Licence
+##  Licence
 
 Coqui Public Model License (CPML), cohérent avec XTTS-v2 original.
 
